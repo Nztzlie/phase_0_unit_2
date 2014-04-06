@@ -1,8 +1,6 @@
 # U2.W4: Refactor Cipher Solution
 
-
-# I worked on this challenge:
-Indigo Nai and Natalie Baer
+# I worked on this challenge with Indigo Nai.
 
 # 1. Solution
 # Write your comments on what each thing is doing. 
