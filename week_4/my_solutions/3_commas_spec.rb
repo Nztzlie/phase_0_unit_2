@@ -1,6 +1,7 @@
-require_relative "[Your file name here]" 
+# require_relative 3_commas_spec.rb 
 #=> Make sure you change this to the name of your code file! Save that file
 # into this repo. 
+
 def separate_comma(value)
 output = value.to_s.reverse
 output = output.chars
