@@ -1,7 +1,17 @@
 require_relative "[Your file name here]" 
 #=> Make sure you change this to the name of your code file! Save that file
 # into this repo. 
-
+def separate_comma(value)
+output = value.to_s.reverse
+output = output.chars
+output = output.each_slice(3).to_a
+output.each do |block|
+  if block != output.last
+      block.push(",")
+    end
+  end
+  puts output.join.reverse
+end
 
 def random_num(min, max)
    rand(max - min + 1) + min
