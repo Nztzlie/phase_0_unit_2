@@ -1,8 +1,7 @@
 # U2.W4: Refactor Cipher Solution
 
 
-# I worked on this challenge [by myself, with: ].
-
+# I worked on this challenge:
 Indigo Nai and Natalie Baer
 
 # 1. Solution
@@ -55,6 +54,5 @@ p translate_to_cipher("I want cookies")
 
 
 
-
 # 5. Reflection 
-
+# It was helpful to me to see this compact and relatively readable code as a good example.
