@@ -1,9 +1,6 @@
 # U2.W4: Cipher Challenge
 
-
 # I worked on this challenge with Nick Giovacchini
-
-
 
 # 1. Solution
 # Write your comments on what each thing is doing. 
