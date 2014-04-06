@@ -119,4 +119,5 @@ p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw
 
 # Reflection
 #This article was interesting, getting the alphabet to automatically move four spots was an interesting challenge
-# Had a good pairing session for this one.
+# Had a good pairing session for this one.  Would have been nice to get a shorter final code, but had trouble getting 
+# the code to run when shortening further sections.
