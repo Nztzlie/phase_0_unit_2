@@ -9,21 +9,6 @@
 # Write your comments on what each thing is doing. 
 # If you have difficulty, go into IRB and play with the methods.
 
-
-
-# U2.W4: Cipher Challenge
-
-
-# I worked on this challenge [by myself, with: ].
-
-
-
-# 1. Solution
-# Write your comments on what each thing is doing. 
-# If you have difficulty, go into IRB and play with the methods.
-
-
-
 def north_korean_cipher(coded_message)
   input = coded_message.downcase.split("") # Check out this method in IRB to see how it works! Also refer to the ruby docs.
   #This splits the strings, so that each key is an individual string.
