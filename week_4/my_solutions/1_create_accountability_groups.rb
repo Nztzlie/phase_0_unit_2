@@ -29,99 +29,24 @@ If members in the array are <3, they will be pushed into established arrays
 
 
 # 4. Refactored Solution
+def account(a)
+		groups = a.shuffle.each_slice(4).to_a
+		if groups[-1].length == 1
+			groups[0] << groups[-1]
+			groups.inspect
+		end
+end
 
-
-
-
-
+a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr" , "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless", 
+			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola", 
+			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen", 
+			"Natalie Baer", "Nick Giovacchini"]
 
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
+print account(a)
 
-
-array_cicadas = 
-["Adeoye Jaiyeola",
-"Brittaney Staton", 
-"Chantelle Turnbull",
-"Charu Sharma",
-"Danielle Adams", 
-"David Kerr",
-"Dinesh Rai",
-"Gregory Knud", 
-"Ian Greenough", 
-"Jake Huhn",
-"Jason Matney",
-"Jessica Tatham", 
-"John Quigley",
-"Judy Jow",
-"Justin Lee", 
-"Kai Prout",
-"Ken Sin", 
-"Kennedy Bhagwandeen", 
-"Kevin Zhou", 
-"Lasse Sviland", 
-"Natalie Baer", 
-"Nick Giovacchini", 
-"Samuel Arkless", 
-"Timothy McClung"] # 24 % 4 = 0
-
-array_fiddler_crabs = [ 
-'Adam Godel ',
-'Adrian Pask ',
-'Brendan Scarano' ,
-'Christine Feaster' ,
-"Howard O'Leary ",
-'Insung Lee ',
-'Jared Rader ',
-'Johnathan Weisner' ,
-'Julia Himmel ',
-'Justin Phelps ',
-'Keaty Gross ',
-'Kenneth Uy ',
-'Lawrence Manfredi ',
-'Neal Fennimore ',
-'Payam Pakmanesh ',
-'Philip London ',
-'Ruben Osorio ',
-'Ryan Rebo ',
-'Sahan Pitigala ',
-'Shaun McGeever ',
-'Timmy Huang ',
-'Tyler Adams'  ] # 22 % 4 = 2
-
-array_dragonflies = [ 
-'Andrew Larson',
-'Andrew Younge' ,
-'Caroline Artz ',
-'Dan Armstrong ',
-'Elizabeth Cruz ',
-'Elizabeth Kaplan ',
-'Erik Olsen ',
-'Fabi Castillo', 
-'George Amolsch', 
-'Guido Medina ',
-'Jason Chodera ',
-'Justin Stewart ',
-'Kevin Kanhirun ',
-'Lars Berg ',
-'Matthew Berns', 
-'Matthew Didier', 
-'Michael Hamel ',
-'Milan Grubnic ',
-'Mohammad Abdeljalil ',
-'Nate Kandler ',
-'Nicholas Eich ',
-'Oliver Treadwell', 
-'Paige Crum ',
-'Robb Hong ',
-'HyungMin ',
-'SANTRECE ROSS ',
-'Syed raza a. Jafri '] # 27 % 4 = 3 
-
-print accountability_group(array_cicadas)
-print accountability_group(array_fiddler_crabs)
-print accountability_group(array_dragonflies)
 
 
 
