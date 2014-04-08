@@ -34,7 +34,7 @@ def account(a)
 		end
 end
 
-a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr" , "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
+a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
 			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola",
 			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen",
 			"Natalie Baer", "Nick Giovacchini"]
@@ -42,13 +42,22 @@ a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr" , "Chantelle Turnbul
 # initial driver:
 print account(a)
 
-
+#############################
 # 4. Refactored Solution
 
-a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr" , "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless", 
-			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola", 
-			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen", 
+def account(group)
+		group = group.shuffle.each_slice(4).to_a
+		if group[-1].length != 4
+		extra = group.shift
+#I'd like to make my code more flexible, so it can support different length groups, can loop in extra people and prints in a clearer way.
+
+end
+
+a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
+			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola",
+			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen",
 			"Natalie Baer", "Nick Giovacchini"]
+
 
 
 
