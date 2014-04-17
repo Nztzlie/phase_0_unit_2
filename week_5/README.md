@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Week 5: Ruby Classes
 
 This week you will be working on creating ruby classes and translating RSpec into driver code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). This week gets into more advanced concepts, so make sure you pair as often as you need to ensure you are able to learn efficiently and have fun doing it! You can pair on any challenge (except for solo challenges) and you have an awesome community of programmers to pair with. You can always ask people to pair on the community and work with people from other locations! 
@@ -24,7 +23,7 @@ Just to make sure we keep things fun, we are going to have you work with `week_5
 
 When you make updates to the files, you should commit your work the same way you did for your website through the app. Include a commit message that describes what you've changed. For example: "added my solution for 2_die"
 
-You need to submit your work through a google form (TBD) by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+You need to submit your work through [this google form](https://docs.google.com/forms/d/1Y1UajPVN_68qSdQ1jNry6TJU4qaZ_UuhSVfoxuqBBOo/viewform) by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
 
 
 ## Resources
@@ -36,7 +35,7 @@ You need to submit your work through a google form (TBD) by Sunday at 11:59pm. E
 - [Ruby Variable Scope](http://www.techotopia.com/index.php/Ruby_Variable_Scope) 
 - [GangesLearning (Videos)](https://www.youtube.com/user/GangesLearning)
 - [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) - This is a really great Ruby reference. We recommend getting it.  
-=======
+
 Week 2: Flow Control, Recursion, Regular Expressions
 -------------------------
 
@@ -61,4 +60,3 @@ Week 2: Flow Control, Recursion, Regular Expressions
 - [ ] [Fibonacci number](http://socrates.devbootcamp.com/challenges/428)  
 - [ ] [Cipher Challenge](http://socrates.devbootcamp.com/challenges/425)
 - [ ] [BONUS: Solve Fibonacci again with a new approach](http://socrates.devbootcamp.com/challenges/430)
->>>>>>> FETCH_HEAD
