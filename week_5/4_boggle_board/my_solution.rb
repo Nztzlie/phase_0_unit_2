@@ -21,7 +21,7 @@ boggle_board = [["b", "r", "a", "e"],
 
 # DRIVER TESTS GO BELOW THIS LINE
   puts create_word(boggle_board, [2,1], [1,1], [1,2], [0,3]) == "code"  
-  puts create_word(boggle_board, [0,1], [0,2], [1,2]) ==rad
+  puts create_word(boggle_board, [0,1], [0,2], [1,2]) == "rad"
 
 # Reflection 
 # It was fun going through the matrix and looing for words, as well as

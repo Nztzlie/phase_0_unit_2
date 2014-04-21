@@ -1,7 +1,7 @@
 # U2.W6: PezDispenser Class from User Stories
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge by myself
 
 # 1. Review the following user stories:
 # - As a pez user, I'd like to be able to "create" a new pez dispenser with a group of flavors that 
@@ -15,14 +15,34 @@
 
 
 # 2. Pseudocode
-
-
+# Initialize the pez dispenser, with flavors to represent pez
+# Define counting the pez remaining
+# Define taking pez from dispenser
+# Define showing the flavors in the dispenser
 
 # 3. Initial Solution
 
 class PezDispenser
- 
-# your code here!
+
+	def initialize (flavors)
+		@flavors
+	end
+
+	def remaining_pez
+		@flavors.size
+	end
+
+	def eat_pez
+		@flavors.pop
+	end
+
+	def add_pez
+		@flavors.push(flavor)
+	end
+
+	def see_pez
+		@flavors
+	end
  
 end
  
@@ -31,7 +51,7 @@ end
 # 4. Refactored Solution
 
 
-
+#none
 
 
 
@@ -53,3 +73,4 @@ puts "Now you have #{super_mario.pez_count} pez!"
 
 
 # 5. Reflection 
+# it was interesting to see the different things that can be performed on an object
