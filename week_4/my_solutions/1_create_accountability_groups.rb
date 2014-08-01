@@ -45,26 +45,25 @@ If members in the array are <3, they will be pushed into established arrays
 # 4. Refactored Solution
 
 def account(group)
-	group = list.shuffle.each_slice(4).to_a
-	group.each do |cluster|
-		if cluster.length < 4
-		extra = cluster.pop
-		print cluster.zip(extra)
+	group = group.shuffle.each_slice(4).to_a
+	if group[-1].length < 4
+		extra = group.pop
+		group = group.zip(extra).flatten
 	end
 end
-	# return group
-end
+
+
 
 
 #I'd like to make my code more flexible, so it can support different length groups, can loop in extra people and prints in a clearer way.
 
-list = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
+group = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
 			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola",
 			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen",
 			"Natalie Baer", "Nick Giovacchini"]
 
 
-# print account(group)
+print account(group)
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
