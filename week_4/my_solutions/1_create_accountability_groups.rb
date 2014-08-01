@@ -25,22 +25,21 @@ If members in the array are <3, they will be pushed into established arrays
 
 # 3. Initial Solution
 
-def account(a)
-		groups = a.shuffle.each_slice(4).to_a
-    p groups
-		if groups[-1].length == 1
-			groups[0] << groups[-1]
-			groups.inspect
-		end
-end
+# def account(cohort)
+# 		groups = a.shuffle.each_slice(4).to_a
+# 		if groups[-1].length == 1
+# 			groups[0] << groups[-1]
+# 			groups.inspect
+# 		end
+# end
 
-a = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
-			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola",
-			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen",
-			"Natalie Baer", "Nick Giovacchini"]
+# cohort = [ "Ken Sin", "Dinesh Rai", "Charu Sharma", "David Kerr", "Chantelle Turnbull", "Jake Huhn", "Samuel Arkless",
+# 			"Kai Prout", "Indigo", "Timothy McClung", "Judy Jow", "Danielle Adams", "John P Quigley", "Adeoye Jaiyeola",
+# 			"Lasse Sviland", "Jessica Tatham", "Kevin Zhou", "Kennedy Bhagwandeen", "Jason Matney", "Gregory Knudsen",
+# 			"Natalie Baer", "Nick Giovacchini"]
 
-# initial driver:
-print account(a)
+# # initial driver:
+# print account(cohort)
 
 #############################
 # 4. Refactored Solution
