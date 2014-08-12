@@ -14,10 +14,10 @@
 
 class Die
   def initialize(labels)
-  		if labels < 1
-  		raise ArgumentError("Error! Requires sides")
-  		end
   	@labels = labels
+    if labels == []
+      raise ArgumentError.new("Error! Requires sides")
+    end
   end
 
   def sides
