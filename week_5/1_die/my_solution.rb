@@ -15,15 +15,15 @@
 # define sides where sides 
 # define roll where roll prints a random number between one and the number of sides defined
 
-
-# 3. Initial Solution
+# Refactored Solution
 
 class Die
+  attr_reader :sides
   def initialize(sides)
+    @sides = sides
     if sides < 1
-    	raise ArgumentError.new("Error! Requires sides")
+      raise ArgumentError.new("Error! Requires sides")
     end
-    	@sides = sides
   end
   
   def sides
@@ -35,22 +35,11 @@ class Die
   end
 end
 
-
-
-# 4. Refactored Solution
-
-
-
-
-
-
 # 1. DRIVER TESTS GO BELOW THIS LINE
-sides = rand(9)
-sides = rand(-1)
-
-
-
-
+nine = Die.new(9)
+total_sides = nine.sides
+roll_results = nine.roll
+print "This #{total_sides}-sided die was rolled and returned #{roll_results}."
 
 # 5. Reflection 
 
